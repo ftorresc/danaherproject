@@ -14,4 +14,3 @@ for post in takewhile(lambda p: p.date > UNTIL, dropwhile(lambda p: p.date > SIN
     print(post.date)
     L.download_post(post, "instagram")
 
-# instaloader --login azuretaol546 --password death34server --no-pictures --no-videos --no-metadata-json danaherjohn

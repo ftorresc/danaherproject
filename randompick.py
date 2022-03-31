@@ -11,7 +11,7 @@ d = random.choice(files)
 with open(path + d, 'r') as file:
     for line in file:
        # debugging purposes, allows to exclude non-complying files 
-       # print(d)
+        print(d)
         print(line)
         engine = pyttsx3.init()
         engine.say(line)
