@@ -13,9 +13,9 @@ with open(path + d, 'r') as file:
        # debugging purposes, allows to exclude non-complying files 
         print(d)
         print(line)
-        engine = pyttsx3.init()
-        engine.say(line)
-        engine.runAndWait()
+        #engine = pyttsx3.init()
+        #engine.say(line)
+        #engine.runAndWait()
 # print(random.choice(os.listdir(path)))
 
 
