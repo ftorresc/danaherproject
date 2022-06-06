@@ -5,6 +5,8 @@ import pyttsx3
 import keyboard
 import re
 
+''' Main script'''
+
 path = r"./txtfiles/"
 parser = argparse.ArgumentParser(description='Script for the Danaher project')
 

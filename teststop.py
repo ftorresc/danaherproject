@@ -1,6 +1,8 @@
 import pyttsx3
 import keyboard
 
+''' Prototype to stop the TTS while it runs - wip'''
+
 def onStart():
     if keyboard.is_pressed("esc"):
         print("Key pressed")
