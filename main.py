@@ -5,7 +5,7 @@ import pyttsx3
 import keyboard
 import re
 
-path = r"./danaherjohn/"
+path = r"./txtfiles/"
 parser = argparse.ArgumentParser(description='Script for the Danaher project')
 
 group = parser.add_mutually_exclusive_group()

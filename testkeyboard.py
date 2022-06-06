@@ -17,7 +17,7 @@ print(x) #this will print an object
 
 
 while not match:
-    path = r"./danaherjohn/"
+    path = r"./txtfiles/"
     #for file in os.listdir(path):
     #    print (file)
     files = os.listdir(path)
